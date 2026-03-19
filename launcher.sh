@@ -7,7 +7,7 @@ then
     echo "Message should be of type 'OS-Name_StudyTopic_date'"
     exit 1
 fi
-
+echo $message
 git pull
 cherrytree
 git add -A
